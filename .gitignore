@@ -1,3 +1,4 @@
 fuel/app/logs/*/*/*
 fuel/app/cache/*/*
 .idea/
+dev-notes.txt

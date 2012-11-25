@@ -11,7 +11,6 @@
     </style>
 </head>
 <body>
-
 <div class="navbar  navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -26,7 +25,6 @@
         </div>
     </div>
 </div>
-
 <div class="container">
     <p>
         <button class="btn btn-large btn-primary">
@@ -47,7 +45,6 @@
     </ul>
 </div>
 <!-- /container -->
-
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
 </body>

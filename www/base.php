@@ -10,8 +10,7 @@
             padding-top: 60px;
         }
     </style>
-    <?php startblock('title') ?>
-    <?php endblock() ?>
+    <?php startblock('head') ?><?php endblock() ?>
 </head>
 <body>
 <div class="navbar  navbar-fixed-top">
@@ -30,8 +29,7 @@
 </div>
 
 <div class="container">
-<?php startblock('content') ?>
-<?php endblock() ?>
+<?php startblock('content') ?><?php endblock() ?>
 </div>
 <!-- /container -->
 

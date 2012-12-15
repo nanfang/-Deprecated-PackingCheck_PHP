@@ -9,8 +9,7 @@
     <? for ($i = 1; $i <= 10; $i++) { ?>
     <li class="span3">
         <a href="/items.php" class="thumbnail">
-            <img src="http://placehold.it/300x200" alt="">
-
+            <img src="http://placekitten.com/300/300?image=<? echo $i ?>" alt="">
             <div class="caption">
                 <h3>Go Hiking</h3>
             </div>

@@ -20,7 +20,7 @@
             <div class="nav-collapse collapse pull-right">
                 <ul class="nav">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Sign Out</a></li>
+                    <li><a href="/login.php">Log In</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->

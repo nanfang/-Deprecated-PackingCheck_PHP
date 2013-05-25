@@ -3,3 +3,4 @@ fuel/app/cache/*/*
 .idea/
 dev-notes.txt
 *.swp
+www/inc/parseConfig.php

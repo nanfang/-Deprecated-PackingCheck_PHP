@@ -7,4 +7,9 @@ function redirect($url, $statusCode = 303){
 function is_blank($question){
     return (!isset($question) || trim($question)==='');
 }
+
+function login($username, $password){
+    // TODO impl
+    return true;
+}
 ?>

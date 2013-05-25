@@ -1,4 +1,4 @@
-<?php require_once 'ti.php' ?>
+<?php require_once 'inc/ti.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

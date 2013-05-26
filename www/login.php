@@ -1,5 +1,6 @@
-<?php require 'inc/commons.php';?>
-<?php if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+<?php
+require 'inc/commons.php';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST["username"];
     $password = $_POST["password"];
     $message = '';
@@ -34,7 +35,8 @@
             <label class="checkbox">
                 <input type="checkbox" name="remember" value="1"> Remember Me
             </label>
-            <button class="btn-info btn" type="submit">Login</button>      
+            <button class="btn-info btn" type="submit">Login</button>
+            <a class="btn btn-warning" href="/signup.php">Create an Account</a>
         </form>    
     </div>
     </div>

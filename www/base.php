@@ -1,4 +1,7 @@
-<?php require_once 'inc/ti.php' ?>
+<?php
+session_start();
+require_once 'inc/ti.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,11 +19,28 @@
 <div class="navbar  navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <a class="brand" href="/">PackingCheck</a>
+            <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="/">Packing Check</a>
             <div class="nav-collapse collapse pull-right">
                 <ul class="nav">
-                    <li><a href="#about">About</a></li>
+                    <li class="divider-vertical"></li>
+                <?php if(isset($_SESSION['username'])) { ?>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Welcome, <?=$_SESSION['username']?><b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/logout.php"><i class="icon-off"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                <?php } else { ?>
                     <li><a href="/login.php">Log In</a></li>
+                <?php } ?>
                 </ul>
             </div>
             <!--/.nav-collapse -->

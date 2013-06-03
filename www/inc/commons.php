@@ -29,4 +29,18 @@ function logout(){
     session_destroy();
 }
 
+function signup($username, $password, $email){
+    // TODO make it better to return error message
+    $parseUser = new parseUser;
+    $parseUser->username = $username;
+    $parseUser->password = $password;
+    $parseUser->email = $email;
+    try {
+        $parseUser->signup(); 
+        return true;
+    } catch (Exception $e) {
+        print($e);
+        return false;
+    }
+}
 ?>

@@ -7,7 +7,7 @@ require_once 'inc/ti.php'
 <head>
     <title>Packing Check</title>
     <meta charset="UTF-8">
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <style>
         body {
             padding-top: 60px;
@@ -54,6 +54,6 @@ require_once 'inc/ti.php'
 <!-- /container -->
 
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
